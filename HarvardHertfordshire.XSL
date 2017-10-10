@@ -170,7 +170,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%}) }}{ '%Title|ShortTitle%'{. &lt;i&gt;%JournalName%&lt;/i&gt;}}{ &lt;i&gt;%JournalName%&lt;/i&gt;}{. %Volume%}{(%Issue%)}{ %Month:s%{ %Year%}}{. %Pages:p. :pp. %}{ Available at: %URL:l|StandardNumber%{ [Accessed: {{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}}.</format>
+          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%}) }}{ '%Title|ShortTitle%'{. &lt;i&gt;%JournalName%&lt;/i&gt;}}{ &lt;i&gt;%JournalName%&lt;/i&gt;}{. %Volume%}{(%Issue%)}{ %Month:s%{ %Year%}}{. %Pages:p. :pp. %}{ %City%{: %Publisher%}}{ %Publisher%}{ Available at: %URL:l|StandardNumber%{ [Accessed: {{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}}.</format>
         </column>
         <sortkey>{%Author:0|Title|ShortTitle%}{ %Year%}{ %Title|ShortTitle%}</sortkey>
       </source>
