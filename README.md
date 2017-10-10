@@ -5,7 +5,7 @@ This is built on Hertfordshire Business School's [Centre for Academic Skills Enh
 
 ## How to Install
 * Make sure **Microsoft Word** is closed
-* Copy the [HarvardHertfordshire.XSL](HarvardHertfordshire.XSL) file to the `%userprofile%\AppData\Roaming\Microsoft\Bibliography\Style` folder on Windows or `/Library/AppSupport/Microsoft/Office365/Citations/` on Mac.
+* Copy the [HarvardHertfordshire.XSL](HarvardHertfordshire.XSL) file to the `%userprofile%\AppData\Roaming\Microsoft\Bibliography\Style` folder on **Windows** or `/Library/AppSupport/Microsoft/Office365/Citations/` on **Mac**.
 * Open **Microsoft Word**, go to the **References** tab and under **Style**, you may now choose: **Harvard - Hertfordshire**
 
 ## How to Contribute
