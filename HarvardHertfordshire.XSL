@@ -208,7 +208,7 @@
         <separator_between_if_two> and </separator_between_if_two>
         <separator_between_if_more_than_two>, </separator_between_if_more_than_two>
         <separator_before_last> and </separator_before_last>
-        <max_number_of_persons_to_display>3</max_number_of_persons_to_display>
+        <max_number_of_persons_to_display>2</max_number_of_persons_to_display>
         <number_of_persons_to_display_if_more_than_max>1</number_of_persons_to_display_if_more_than_max>
         <overflow> et al.</overflow>
         <single_suffix></single_suffix>
