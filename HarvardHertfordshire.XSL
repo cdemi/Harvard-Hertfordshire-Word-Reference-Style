@@ -154,7 +154,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%})}}{ &lt;i&gt;%Title|ShortTitle%&lt;/i&gt;{ (%Year%{%YearSuffix%})}}{. %ConferenceName%}{. %City%}{. %Pages:p. :pp. %}.{ Available at: %URL:l%}{ [Accessed: {{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%].}</format>
+          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%})}}{ &lt;i&gt;%Title|ShortTitle%&lt;/i&gt;{ (%Year%{%YearSuffix%})}}{. %ConferenceName%}{. %City%}{. %Pages:p. :pp. %}{ %Publisher%}.{ Available at: %URL:l%}{ [Accessed: {{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%].}</format>
         </column>
         <sortkey>{%Author:0|Title|ShortTitle%}{ %Year%}{ %Title|ShortTitle%}</sortkey>
       </source>
