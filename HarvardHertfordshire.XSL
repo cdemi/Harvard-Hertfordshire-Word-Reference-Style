@@ -162,9 +162,9 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2%{ (%Year%{%YearSuffix%})}}{ &lt;i&gt;%Title|ShortTitle|InternetSiteTitle%&lt;/i&gt;}{. %Title%}{ (%Year%{%YearSuffix%})}{, {%Day% }%Month:s%}, [Online]{. Available at: %URL:l%}{ [Accessed: {{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}.</format>
+          <format>{%Author:2%{ (%Year%{%YearSuffix%})}}{ &lt;i&gt;%InternetSiteTitle%&lt;/i&gt;}{. %Title%}{ (%Year%{%YearSuffix%})}{, {%Day% }%Month:s%}, [Online]{. Available at: %URL:l%}{ [Accessed: {{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}.</format>
         </column>
-        <sortkey>{%Author:0|Title|ShortTitle|InternetSiteTitle%}{ %Year%}{ %Title|ShortTitle|InternetSiteTitle%}</sortkey>
+        <sortkey>{%Author:0|InternetSiteTitle%}{ %Year%}{ %InternetSiteTitle%}</sortkey>
       </source>
       <source type="JournalArticle">
         <column id="1">
