@@ -146,7 +146,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2|Editor:3|BookAuthor:2%{ (%Year|"n.d"%{%YearSuffix%})}}{ '%Title|ShortTitle%'}{. in{ %Editor:3|BookAuthor:2%} &lt;i&gt;%BookTitle%&lt;/i&gt;{. %Edition:os% edn}.}{ %City%{: %Publisher%}}{ %Publisher%}{, Available: %URL%{ [{{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}}.</format>
+          <format>{%Author:2|Editor:3|BookAuthor:2%{ (%Year|"n.d"%{%YearSuffix%})}}{ '%Title|ShortTitle%'}{. In{ %Editor:3|BookAuthor:2%} &lt;i&gt;%BookTitle%&lt;/i&gt;{. %Edition:os% edn}.}{ %City%{: %Publisher%}}{ %Publisher%}{, Available: %URL%{ [{{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0|BookAuthor:0|Title|ShortTitle%}{ %Year%}{ %Title|ShortTitle%}</sortkey>
       </source>
@@ -242,7 +242,7 @@
         <number_of_persons_to_display_if_more_than_max>20</number_of_persons_to_display_if_more_than_max>
         <overflow> et al.</overflow>
         <single_suffix> (ed.)</single_suffix>
-        <multi_suffix> (ed.)</multi_suffix>
+        <multi_suffix> (eds.)</multi_suffix>
       </list>
     </namelists>
     <strings>
