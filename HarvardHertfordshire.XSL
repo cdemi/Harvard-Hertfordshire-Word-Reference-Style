@@ -9,7 +9,7 @@
       <version>2017.10.10</version>
       <description>An implementation of the Harvard reference style based on the description by the University of Hertfordshire.</description>
       <URL></URL>
-      <author>Christopher Demicoli (christopher.demicoli@outlook.com)</author>
+      <author>Christopher Demicoli (christopher.demicoli@outlook.com) and Natasha Fenech (natashafenech@gmail.com)</author>
       <comments>
         Based on http://www.studynet1.herts.ac.uk/ptl/common/LIS.nsf/lis/busharvard
       </comments>
