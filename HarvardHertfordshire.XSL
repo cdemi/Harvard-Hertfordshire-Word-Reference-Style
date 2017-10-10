@@ -130,7 +130,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%})}}{ '%Title|ShortTitle%'{, &lt;i&gt;%PeriodicalTitle%&lt;/i&gt;}}{ &lt;i&gt;%PeriodicalTitle%&lt;/i&gt;}{ ({{%Day% }%Month:s% }%Year%)}{, {%Day% }%Month:s%}{, %Pages:p. :pp. %}{, Available: %URL%{ [{{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}}.</format>
+          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%})}}{ '%Title|ShortTitle%'{. &lt;i&gt;%PeriodicalTitle%&lt;/i&gt;}}{ &lt;i&gt;%PeriodicalTitle%&lt;/i&gt;}{ ({{%Day% }%Month:s% }%Year%)}{, {%Day% }%Month:s%}{, %Pages:p. :pp. %}{, Available: %URL%{ [{{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}}.</format>
         </column>
         <sortkey>{%Author:0|Title|ShortTitle%}{ %Year%}{ %Title|ShortTitle%}</sortkey>
       </source>
@@ -146,7 +146,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2|Editor:3|BookAuthor:2%{ (%Year|"n.d"%{%YearSuffix%})}}{ '%Title|ShortTitle%'}{, in{ %Editor:3|BookAuthor:2%} &lt;i&gt;%BookTitle%&lt;/i&gt;{. %Edition:os% edn}.}{ %City%{: %Publisher%}}{ %Publisher%}{, Available: %URL%{ [{{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}}.</format>
+          <format>{%Author:2|Editor:3|BookAuthor:2%{ (%Year|"n.d"%{%YearSuffix%})}}{ '%Title|ShortTitle%'}{. in{ %Editor:3|BookAuthor:2%} &lt;i&gt;%BookTitle%&lt;/i&gt;{. %Edition:os% edn}.}{ %City%{: %Publisher%}}{ %Publisher%}{, Available: %URL%{ [{{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}}.</format>
         </column>
         <sortkey>{%Author:0|Editor:0|BookAuthor:0|Title|ShortTitle%}{ %Year%}{ %Title|ShortTitle%}</sortkey>
       </source>
@@ -154,7 +154,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%})}}{ '%Title|ShortTitle%'{ (%Year%{%YearSuffix%})}}{, %ConferenceName%}{, %City%}{, %Pages%}.</format>
+          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%})}}{ '%Title|ShortTitle%'{ (%Year%{%YearSuffix%})}}{. %ConferenceName%}{, %City%}{, %Pages%}.</format>
         </column>
         <sortkey>{%Author:0|Title|ShortTitle%}{ %Year%}{ %Title|ShortTitle%}</sortkey>
       </source>
@@ -170,7 +170,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%}) }}{ '%Title|ShortTitle%'{, &lt;i&gt;%JournalName%&lt;/i&gt;}}{ &lt;i&gt;%JournalName%&lt;/i&gt;}{, vol. %Volume%}{, no. %Issue%}{, %Month:s%{ %Year%}}{, %Pages:p. :pp. %}{, Available: %URL:l|StandardNumber%{ [{{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}}.</format>
+          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%}) }}{ '%Title|ShortTitle%'{. &lt;i&gt;%JournalName%&lt;/i&gt;}}{ &lt;i&gt;%JournalName%&lt;/i&gt;}{, vol. %Volume%}{, no. %Issue%}{, %Month:s%{ %Year%}}{, %Pages:p. :pp. %}{, Available: %URL:l|StandardNumber%{ [{{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}}.</format>
         </column>
         <sortkey>{%Author:0|Title|ShortTitle%}{ %Year%}{ %Title|ShortTitle%}</sortkey>
       </source>
